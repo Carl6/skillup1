@@ -618,6 +618,11 @@ max-width: 250px;
 .iconos{
   max-width: 100px;
 }
+.btn2{
+  text-align: center;
+  margin: 50px;
+
+}
 .service-box {
   max-width: 400px;
   margin: 50px auto 0; }
