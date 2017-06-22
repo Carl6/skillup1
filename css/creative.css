@@ -368,6 +368,10 @@ max-width: 250px;
 
 /*  robado de agency team membersjiji*/
 
+.imgteam{
+  height: 200px;
+
+}
 .bg-light-gray {
     background-color: #eeeeee;
 }
@@ -534,14 +538,18 @@ section {
     border: none;
 }
 #fade-quote-carousel .profile-circle {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     margin: 0 auto;
     border-radius: 100px;
 }
 
 
 /* css de bootsnip hover dropdown */
+
+.dropdown-menu{
+  background-color: transparent;
+}
 
 .dropdown-menu > li.kopie > a {
    padding-left:5px;
@@ -588,7 +596,7 @@ section {
    background-color: #fff;
  }
  .navbar-default .navbar-nav .dropdown-menu > li > a {
-   color: red;
+   color: black;
    background-color: #ccc;
    border-radius: 4px;
    margin-top: 2px;
