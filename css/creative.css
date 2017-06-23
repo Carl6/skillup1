@@ -1,6 +1,9 @@
 
 *{
-  font-family: 'Montserrat', sans-serif
+  font-family: 'Montserrat', sans-serif;
+}
+.color-blanco>li>a{
+  color: white !important;
 }
 html,
 body {
@@ -229,7 +232,7 @@ max-width: 250px;
   color: blue;
 }
 .social_impact{
-
+margin: 40px;
 }
 
 
@@ -342,17 +345,17 @@ max-width: 250px;
   border-color: #3DF2CA; }
   .btn-primary:focus, .btn-primary.focus {
     color: white;
-    background-color: #eb3812;
+    background-color: pink;
     border-color: #a4270d; }
   .btn-primary:hover {
     color: white;
-    background-color: #eb3812;
-    border-color: #e13612; }
+    background-color: pink;
+    border-color: pink; }
   .btn-primary:active, .btn-primary.active,
   .open > .btn-primary.dropdown-toggle {
     color: white;
-    background-color: #eb3812;
-    border-color: #e13612; }
+    background-color: pink;
+    border-color: pink; }
     .btn-primary:active:hover, .btn-primary:active:focus, .btn-primary:active.focus, .btn-primary.active:hover, .btn-primary.active:focus, .btn-primary.active.focus,
     .open > .btn-primary.dropdown-toggle:hover,
     .open > .btn-primary.dropdown-toggle:focus,
@@ -663,5 +666,6 @@ section {
    text-align: center;
  }
 }
+
 
 /* end of css bootnsip hover dropdown */
