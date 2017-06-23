@@ -119,7 +119,7 @@ body {
         background-color: transparent; }
   @media (min-width: 992px) {
     #mainNav {
-      background-color: transparent;
+      background-color: black;
       border-color: rgba(255, 255, 255, 0.3); }
       #mainNav .navbar-brand {
         color: rgba(255, 255, 255, 0.7); }
@@ -578,7 +578,7 @@ section {
 /* css de bootsnip hover dropdown */
 
 .dropdown-menu{
-  background-color: transparent;
+  background-color: black;
 }
 
 .dropdown-menu > li.kopie > a {
