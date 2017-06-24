@@ -200,42 +200,6 @@ header.masthead {
 
 }
 
-video {
-    max-width: 100%;
-    height: auto;
-}
-
-.logo-su {
-  max-width: 500px;
-}
-
-.logo-hub{
-max-width: 250px;
-}
-.iconos{
-  max-width: 100px;
-}
-.btn2{
-  text-align: center;
-  margin: 50px;
-}
-
-.brakets {
-  max-height: 450px;
-}
-.brakets1 {
-  max-height: 450px;
-}
-
-.pilar_cinco{
-  margin-left: 200px;
-  color: blue;
-}
-.social_impact{
-margin: 40px;
-}
-
-
 
 .service-box {
   max-width: 400px;
@@ -345,24 +309,24 @@ margin: 40px;
   border-color: ; }
   .btn-primary:focus, .btn-primary.focus {
     color: white;
-    background-color: gray;
-    border-color: #a4270d; }
+    background-color:#62C6C2;
+    border-color: #62C6C2; }
   .btn-primary:hover {
     color: white;
-    background-color: gray;
-    border-color: gray; }
+    background-color: #62C6C2;
+    border-color: #62C6C2; }
   .btn-primary:active, .btn-primary.active,
   .open > .btn-primary.dropdown-toggle {
     color: white;
-    background-color: gray;
-    border-color: gray; }
+    background-color: #62C6C2;
+    border-color: #62C6C2; }
     .btn-primary:active:hover, .btn-primary:active:focus, .btn-primary:active.focus, .btn-primary.active:hover, .btn-primary.active:focus, .btn-primary.active.focus,
     .open > .btn-primary.dropdown-toggle:hover,
     .open > .btn-primary.dropdown-toggle:focus,
     .open > .btn-primary.dropdown-toggle.focus {
       color: white;
-      background-color: gray;
-      border-color: #a4270d; }
+      background-color: #62C6C2;
+      border-color: #62C6C2; }
   .btn-primary:active, .btn-primary.active,
   .open > .btn-primary.dropdown-toggle {
     background-image: none; }
@@ -424,7 +388,7 @@ ul.social-buttons li a {
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-  background-color: #fed136;
+  background-color:#62C6C2;
 }
 .btn:focus,
 .btn:active,
@@ -437,7 +401,7 @@ ul.social-buttons li a:active {
 
 
 section#contact {
-  background-color: #222222;
+  background-color: lightblue;
   background-image: url('../img/map-image.png');
   background-position: center;
   background-repeat: no-repeat;
@@ -459,7 +423,7 @@ section#contact .form-group textarea.form-control {
   height: 236px;
 }
 section#contact .form-control:focus {
-  border-color: #fed136;
+  border-color: #62C6C2;
   box-shadow: none;
 }
 section#contact ::-webkit-input-placeholder {
@@ -509,8 +473,7 @@ footer ul.quicklinks {
   text-transform: none;
 }
 
-.bg-light-gray {
-    background-color: $gray-lighter;
+
 }
 
 
@@ -523,7 +486,7 @@ footer ul.quicklinks {
 
 }
 .testimonials{
-  background-color: white;;
+  background-color: lightblue;
 }
 section {
 
@@ -560,7 +523,7 @@ section {
   bottom: 10px;
 }
 #fade-quote-carousel.carousel .carousel-indicators > li {
-  background-color: #e84a64;
+  background-color: #62C6C2;
   border: none;
 }
 #fade-quote-carousel blockquote {
@@ -669,8 +632,46 @@ section {
 
 
 /* end of css bootnsip hover dropdown */
+
+
 .punchline {
   color: white;
   size: 80px;
   margin: auto;
+}
+
+video {
+    max-width: 100%;
+    height: auto;
+}
+
+.logo-su {
+  max-width: 500px;
+}
+
+.logo-hub{
+max-width: 250px;
+}
+.iconos{
+  max-width: 100px;
+}
+.btn2{
+  text-align: center;
+  margin: 50px;
+}
+
+.brakets {
+  max-height: 450px;
+}
+.brakets1 {
+  max-height: 450px;
+}
+
+.pilar_cinco{
+  font-size: 30px;
+  margin-left: 200px;
+  color:#0097CC;
+}
+.social_impact{
+margin: 40px;
 }
