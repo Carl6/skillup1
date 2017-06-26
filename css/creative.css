@@ -401,7 +401,7 @@ ul.social-buttons li a:active {
 
 
 section#contact {
-  background-color: lightblue;
+  background-color:#eef7fa;
   background-image: url('../img/map-image.png');
   background-position: center;
   background-repeat: no-repeat;
@@ -486,7 +486,7 @@ footer ul.quicklinks {
 
 }
 .testimonials{
-  background-color: lightblue;
+  background-color:#eef7fa;
 }
 section {
 
@@ -635,7 +635,7 @@ section {
 
 
 .punchline {
-  color: whitesmoke;
+  color:black;
   size: 70px;
   margin: auto;
 }
@@ -650,7 +650,7 @@ video {
 }
 
 .logo-hub{
-max-width: 250px;
+max-width: 350px;
 }
 .iconos{
   max-width: 100px;
@@ -668,10 +668,18 @@ max-width: 250px;
 }
 
 .pilar_cinco{
-  font-size: 30px;
-  margin-left: 200px;
+  font-size: 25px;
+  margin-left: 165px;
   color:#0097CC;
+  
 }
 .social_impact{
-margin: 40px;
+margin-right: 300px;
+margin-left: 150px;
+text-align: left;
+}
+
+.icon_5{
+  max-width: 100px;
+  margin-left: 200px;
 }
