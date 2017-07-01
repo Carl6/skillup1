@@ -1,20 +1,21 @@
 
 *{
-  font-family: 'Montserrat', sans-serif;
-}
+  font-family: 'Montserrat', sans-serif;  
+  }
 
 .color-blanco>li>a{
   color: white !important;
-}
+  }
 
 html,
 body {
   height: 100%;
-  width: 100%; }
+  width: 100%; 
+  }
 
 body {
   font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif; 
-}
+  }
 
 hr {
   border-width: 3px;
@@ -75,23 +76,28 @@ section {
 ::-moz-selection {
   color: white;
   text-shadow: none;
-  background: #222222; }
+  background: #222222; 
+  }
 
 ::selection {
   color: white;
   text-shadow: none;
-  background: #222222; }
+  background: #222222; 
+  }
 
 img::selection {
   color: white;
-  background: transparent; }
+  background: transparent; 
+  }
 
 img::-moz-selection {
   color: white;
-  background: transparent; }
+  background: transparent; 
+  }
 
 body {
-  -webkit-tap-highlight-color: #222222; }
+  -webkit-tap-highlight-color: #222222; 
+  }
 
 #mainNav {
   background-color: white;
@@ -99,63 +105,85 @@ body {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
-  transition: all 0.2s; }
-  #mainNav .navbar-brand {
-    color: white;
-    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
-    font-weight: 700;
-    text-transform: uppercase; }
-    #mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
-      color: white; }
-  #mainNav .navbar-toggle {
-    font-weight: 700;
-    font-size: 12px;
-    color: #222222;
-    text-transform: uppercase; }
-  #mainNav .navbar-nav > li.nav-item > a.nav-link,
-  #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
+  transition: all 0.2s; 
+  }
+
+#mainNav .navbar-brand {
+  color: white;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-weight: 700;
+  text-transform: uppercase; 
+  }
+
+#mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
+  color: white; 
+  }
+
+
+#mainNav .navbar-toggle {
+  font-weight: 700;
+  font-size: 12px;
+  color: #222222;
+  text-transform: uppercase; 
+  }
+
+#mainNav .navbar-nav > li.nav-item > a.nav-link,
+#mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
     text-transform: uppercase;
     font-weight: 700;
     font-size: 13px;
-    color: #222222; }
-    #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
-    #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-      color: white; }
-    #mainNav .navbar-nav > li.nav-item > a.nav-link.active,
-    #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active {
-      color:  !important;
-      background-color: transparent; }
-      #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover,
-      #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active:hover {
-        background-color: transparent; }
+    color: #222222; 
+  }
+#mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
+#mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
+  color: white; 
+  }
+
+#mainNav .navbar-nav > li.nav-item > a.nav-link.active,
+#mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active {
+    background-color: transparent;
+  }
+#mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover,
+#mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active:hover {
+        background-color: transparent; 
+  }
+
+/*Media querie */
+
   @media (min-width: 992px) {
     #mainNav {
       background-color: black;
       border-color: rgba(255, 255, 255, 0.3); }
       #mainNav .navbar-brand {
         color: rgba(255, 255, 255, 0.7); }
-        #mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
+      #mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
           color: white; }
       #mainNav .navbar-nav > li.nav-item > a.nav-link,
       #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
         color: rgba(255, 255, 255, 0.7); }
-        #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
-        #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
+      #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
+      #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
           color: white; }
       #mainNav.navbar-shrink {
         background-color: white;
         border-color: rgba(34, 34, 34, 0.05); }
-        #mainNav.navbar-shrink .navbar-brand {
-          color: ;
+      #mainNav.navbar-shrink .navbar-brand {
+          color: white;
           font-size: 16px; }
-          #mainNav.navbar-shrink .navbar-brand:hover, #mainNav.navbar-shrink .navbar-brand:focus {
-            color: ; }
-        #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link,
-        #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus {
+      #mainNav.navbar-shrink .navbar-brand:hover, #mainNav.navbar-shrink .navbar-brand:focus {
+            }
+      #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link,
+      #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus {
           color: #222222; }
-          #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover,
-          #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-            color: ; } }
+      #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover,
+      #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
+          }
+    }
+
+
+
+
+
 
 header.masthead {
   position: relative;
@@ -166,27 +194,39 @@ header.masthead {
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
-  /*background-image: url("../img/header.jpg");*/
   text-align: center;
-  color: white; }
-  header.masthead .header-content {
-    position: relative;
-    text-align: center;
-    padding: 100px 15px 100px;
-    width: 100%; }
-    header.masthead .header-content .header-content-inner h1 {
-      font-weight: 700;
-      text-transform: uppercase;
-      margin-top: 0;
-      margin-bottom: 0;
-      font-size: 30px; }
-    header.masthead .header-content .header-content-inner hr {
-      margin: 30px auto; }
-    header.masthead .header-content .header-content-inner p {
-      font-weight: 300;
-      color: rgba(255, 255, 255, 0.7);
-      font-size: 16px;
-      margin-bottom: 50px; }
+  color: white; 
+  }
+
+header.masthead .header-content {
+  position: relative;
+  text-align: center;
+  padding: 100px 15px 100px;
+  width: 100%; 
+  }
+
+header.masthead .header-content .header-content-inner h1 {
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 30px; 
+  }
+
+header.masthead .header-content .header-content-inner hr {
+      margin: 30px auto; 
+  }
+
+header.masthead .header-content .header-content-inner p {
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 16px;
+  margin-bottom: 50px; 
+}
+  
+/* media queries */
+  
+  
   @media (min-width: 768px) {
     header.masthead {
       height: 100%;
@@ -208,14 +248,16 @@ header.masthead {
             font-size: 20px;
             max-width: 80%;
             margin-left: auto;
-             
-  }
+    }
 }
-
 
 .service-box {
   max-width: 400px;
-  margin: 50px auto 0; }
+  margin: 50px auto 0; 
+  }
+
+  /* media queries */
+  
   @media (min-width: 992px) {
     .service-box {
       margin: 20px auto 0; } }
@@ -272,7 +314,8 @@ header.masthead {
     margin: 0 auto 20px; }
 
 .text-primary {
-  color:  !important; }
+  /*color: !important; }*/
+}
 
 .no-gutter > [class*='col-'] {
   padding-right: 0;
@@ -319,8 +362,9 @@ header.masthead {
 
 .btn-primary {
   color: white;
-  background-color: ;
-  border-color: ; }
+  /*background-color: ;*/
+  /*border-color: ; */
+  }
   .btn-primary:focus, .btn-primary.focus {
     color: white;
     background-color:#62C6C2;
@@ -348,10 +392,11 @@ header.masthead {
   fieldset[disabled] .btn-primary:hover,
   fieldset[disabled] .btn-primary:focus,
   fieldset[disabled] .btn-primary.focus {
-    background-color: ;
-    border-color: ; }
+    /*background-color: ;
+    border-color: ; */
+    }
   .btn-primary .badge {
-    color: ;
+    /*color: ;*/
     background-color: white; }
 
 .btn {
@@ -663,9 +708,11 @@ video {
 .logo-hub{
 max-width: 350px;
 }
+
 .iconos{
   max-width: 100px;
 }
+
 .btn2{
   text-align: center;
   margin: 50px;
@@ -682,8 +729,8 @@ max-width: 350px;
   font-size: 25px;
   margin-left: 165px;
   color:#0097CC;
-  
 }
+
 .social_impact{
 margin-right: 300px;
 margin-left: 150px;
@@ -694,3 +741,4 @@ text-align: left;
   max-width: 100px;
   margin-left: 200px;
 }
+  
